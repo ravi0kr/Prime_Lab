@@ -469,12 +469,6 @@ footer {
   gap: 1rem;
 }
 
-.disclaimer-icon {
-  font-size: 1.2rem;
-  flex-shrink: 0;
-  color: #e67700;
-}
-
 .disclaimer-text {
   font-weight: 500;
   line-height: 1.4;
