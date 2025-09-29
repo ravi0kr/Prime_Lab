@@ -445,3 +445,58 @@ footer {
 .card:nth-child(3) {
   animation-delay: 0.2s;
 }
+
+
+/* Disclaimer Styles */
+.disclaimer {
+  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+  color: #856404;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  border-bottom: 2px solid #ffd43b;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.disclaimer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.disclaimer-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  color: #e67700;
+}
+
+.disclaimer-text {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.disclaimer strong {
+  font-weight: 700;
+  color: #e67700;
+}
+
+/* Responsive Disclaimer */
+@media (max-width: 768px) {
+  .disclaimer {
+    padding: 0.8rem 1rem;
+  }
+  
+  .disclaimer-content {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .disclaimer-text {
+    font-size: 0.8rem;
+  }
+}
